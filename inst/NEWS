@@ -1,5 +1,12 @@
 DEGreport News
 
+CHANGES IN DEGreport 1.10.1
+
+    01-03-2017 Lorena Pantano <lorena.pantano@gmail.com>
+    
+    Fix: fix order of clusters figures that are not in the correct
+         place in some cases with many groups.
+
 CHANGES IN DEGreport 1.9.9
 
     10-14-2016 Lorena Pantano <lorena.pantano@gmail.com>
