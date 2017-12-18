@@ -1,5 +1,10 @@
 DEGreport News
 
+CHANGES IN DEGreport 1.14.1
+   2017-12-18 Lorena Pantano <lorena.pantano@gmail.com>
+
+   Fix: Fix Volcano plot pvalue cutoff.
+
 CHANGES IN DEGreport 1.13.12
     2017-10-11  Lorena Pantano <lorena.pantano@gmail.com>
    
