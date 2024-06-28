@@ -1,9 +1,9 @@
 Package: DEGreport
-Version: 1.40.0
-Date: 2024-01-10
+Version: 1.40.1
+Date: 2024-06-28
 Type: Package
 Title: Report of DEG analysis
-Description: Creation of a HTML report of differential expression
+Description: Creation of ready-to-share figures of differential expression
     analyses of count data. It integrates some of the code
     mentioned in DESeq2 and edgeR vignettes, and report a ranked
     list of genes according to the fold changes mean and
@@ -71,6 +71,6 @@ Authors@R: c(person("Lorena", "Pantano", email = "lorena.pantano@gmail.com",
 Maintainer: Lorena Pantano <lorena.pantano@gmail.com>
 License: MIT + file LICENSE
 VignetteBuilder: knitr
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
