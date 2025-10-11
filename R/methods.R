@@ -187,7 +187,7 @@ degMean <-
         geom_bar()+
         theme_bw() +
         scale_fill_brewer("mean\nquantiles", palette="RdYlBu")) +
-        labs(list(x="p-values", y="# genes"))
+        labs(x="p-values", y="# genes")
 }
 
 #' Distribution of pvalues by standard desviation range
@@ -228,7 +228,7 @@ degVar <-
         geom_bar()+
         theme_bw() +
         scale_fill_brewer("variance\nquantiles", palette="RdYlBu") +
-        labs(list(x="p-values", y="# genes")))
+        labs(x="p-values", y="# genes"))
 }
 
 #' Correlation of the standard desviation and the mean of the abundance of a

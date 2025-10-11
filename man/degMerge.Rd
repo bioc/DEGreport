@@ -40,7 +40,7 @@ A data.frame with information on what genes are in each cluster in
 all data set, and the correlation value for each pair cluster comparison.
 }
 \description{
-The simplest case is if you want to convine the pattern profile
+The simplest case is if you want to conbine the pattern profile
 for gene expression data and proteomic data. It will use the first element
 as the base for the integration. Then, it will loop through clusters
 and run \link{degPatterns} in the second data set to detect patterns that match

@@ -477,9 +477,9 @@ degPlotCluster <- function(table, time, color = NULL,
 }
 
 
-#' Integrate data comming from degPattern into one data object
+#' Integrate data coming from degPattern into one data object
 #'
-#' The simplest case is if you want to convine the pattern profile
+#' The simplest case is if you want to conbine the pattern profile
 #' for gene expression data and proteomic data. It will use the first element
 #' as the base for the integration. Then, it will loop through clusters
 #' and run [degPatterns] in the second data set to detect patterns that match
@@ -872,13 +872,13 @@ degMDS = function(counts, condition=NULL, k=2, d="euclidian", xi=1, yi=2) {
                                   label = "label", color = "condition")) +
             geom_text(aes_string("one", "two",
                                  label = "label"), size = 3) +
-            labs(list(x = xnames[xi], y = xnames[yi])) +
+            labs(x = xnames[xi], y = xnames[yi]) +
             scale_x_continuous(expand = c(0.3, 0.3))
     } else {
         p = ggplot(df, aes_string("one", "two")) +
             geom_text(aes_string("one", "two",
                                  label = "label"), size = 3) +
-            labs(list(x = xnames[xi], y = xnames[yi])) +
+            labs(x = xnames[xi], y = xnames[yi]) +
             scale_x_continuous(expand = c(0.3, 0.3))
 
     }

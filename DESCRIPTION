@@ -1,6 +1,6 @@
 Package: DEGreport
-Version: 1.45.0
-Date: 2024-06-28
+Version: 1.45.1
+Date: 2025-10-11
 Type: Package
 Title: Report of DEG analysis
 Description: Creation of ready-to-share figures of differential expression

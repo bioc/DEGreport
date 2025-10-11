@@ -1,5 +1,12 @@
 DEGreport News
 
+CHANGES IN DEGreport 1.45.1
+
+    * Fixed labs() function calls in multiple R files:
+        - methods.R (2 occurrences in degMean and degVar functions)
+        - clustering.R (2 occurrences)
+        - volcanoPlot.R (1 occurrence)
+
 CHANGES IN DEGreport 1.41.1
     
     * made that the sequence of clusters in the dendogram matches the sequence of clusters in the trajectories @zellerivo 

@@ -72,7 +72,7 @@ degVolcano <- function(stats, side="both", title="Volcano Plot with Marginal Dis
         theme(legend.position="none") +
         theme(plot.margin=unit(c(3,-5.5,4,3), "mm") )+
 #         scale_x_continuous(limits = range.lfc, breaks = range.lfc[1]:range.lfc[2])+
-        scale_y_continuous(labels=fmt(), limits = range.pval)+ labs(list(title="Volcano plot"))
+        scale_y_continuous(labels=fmt(), limits = range.pval)+ labs(title="Volcano plot")
     if (side=="both" | side=="up")
         scatter = scatter + geom_polygon(data=scat.poly.up, aes_string(x="x",y="y"), fill=shade.colour, alpha=shade.alpha)
     if (side=="both" | side=="down")
